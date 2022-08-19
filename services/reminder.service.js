@@ -25,7 +25,7 @@ const updateReminder = async(id) => {
 
 // Check Reminder Loop
 const reminderCheck = async () => {
-    console.log("checking for reminders to be reminded")
+    // console.log("checking for reminders to be reminded")
     var res = await prisma.reminders.findMany({
         where : {
             AND : [
