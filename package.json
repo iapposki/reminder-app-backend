@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@prisma/client": "^4.2.1",
+    "bson": "^4.6.5",
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.2",
+    "prisma": "^4.2.1"
+  }
+}
